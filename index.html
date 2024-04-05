@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<!-- დავალება 14 - შევქმნათ თამაში X/O -->
+
+<div class="games">
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+    <div class="cell"></div>
+</div>
+
+<h1 class="rezult"></h1>
+
+
+<button onclick="restart()">restart</button>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
+<style>
+/* დავალება 14 - შევქმნათ თამაში X/O */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.games{
+    width: 310px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    margin-bottom: 20px;
+}
+.cell{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 70px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    width: 100px;
+    height: 30px;
+    margin:auto;
+    margin-top: 20px;
+}
+
+</style>
